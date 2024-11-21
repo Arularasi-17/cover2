@@ -28,105 +28,140 @@ Publish the website in the given URL.
 ## PROGRAM:
 ```
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" 
-        content="width=device-width, initial-scale=1.0">
-        <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
+<html>
 
-        .bookpage {
-            width: 400px;
-            height: 600px;
-            color: rgb(0, 255, 60);
-            padding: 20px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url(Slide2.PNG);
+<head>
+    <title>MY BOOK COVER</title>
+    <style>
+        .bookpage{
+
+            width: 450px;
+            height: 670px;
+            color:rgb(15, 13, 13);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 26px;
+            font-family: ' Arial, sans-serif';
+            background-image: url("cover2.jpg");
             background-size: cover;
         }
+            
+        
         .insight{
-            color: rgb(0, 255, 60);
+            color:rgb(194, 221, 221);
+            font-family: BOLD;
         }
+        
+        
         .hrstyle{
-            width:100px;
+            width:128px;
         }
         .author{
+        
             display: inline;
             position: relative;
-            color: rgb(0, 255, 60);
-            top:190px;
-            font-family:Georgia;
-            font-size: medium;
+            color:rgb(224, 232, 229);
+            top: 220px;
+            font-family:BOLD;
+            font-size: medium large;
         }
         .booktitle{
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 19px;
+            color:rgb(230, 236, 236);
+            font-family:bold;
+            font-size: x-large;
             text-align: center;
             position: relative;
-            top: 30px;
+            top: 26px;
+        
         }
         .id {
-            width:400px;
+            width: 130px;
+            color:rgb(0, 0, 0);
             position: relative;
-            top:180px;
+            top: 240px;
+            
         }
         .pub{
-            font-size: medium;
+            color:rgb(169, 215, 224);
+            font-size: large;
+            font-family: bold;
             position: relative;
-            top:155px;
-            left:330px;
+            top:190px;
+            left:275px;
         }
         .ed{
-            color: rgb(0, 255, 60);
-            font-size: medium;
-            font-family: Verdana;
+            color:rgb(231, 224, 224);
+            font-size: large;
+            font-family:italic;
             position:relative;
-            top:85px;
+            top: 90px;
+            left:3px;
+        
         }
         .subtitle{
-            font-family:Tahoma;
+            color:rgb(229, 229, 158);
+            font-family:unicorn;
             font-size: large;
             position: relative;
-            top:40px;
+            top: 10px;
         }
         .mypic{
             position: relative;
-            top: 135px;
-            left: 260px;
-            width: 100px;
+            top: 230px;
+            left: 340px;
+            width: 70px;
             height: 100px;
-            background-size: cover;
+            border-radius: 500px;
+
         }
         </style>
-        <title>Book Cover Page</title>
-    </head>
-    <body>
+        <title>BLACKHOLE</title>
+        </head>
+        <body>
         <div class="bookpage">
-            <div class="insight">EXPERT INSIGHT</div>
-            <div class="hrstyle"><hr style="color: rgb(0, 255, 60);"></div>
-            <div class="booktitle"><h1>WHITE AND BLACK HAT HACKING BASICS TO PROFESSIONAL</h1></div>
-            <div class="subtitle">METHODOLOGY TO UNETHICAL HACKING</div>
-            <div class="mypic"><img src="my image.png" width="130" height="145" alt=""></div>
-            <div class="id"><hr style="color: rgb(0, 255, 60);"></div>
-            <div class="author"><p><b>BY SRIRAM</b></p></div>
-            <div class="pub">OPEN >>></div>
-            <div class="ed"><b>Special Edition</b></div>
-        </div>
-    </bodY>
+            <div class="insight">
+                LEAP INTO FUTURE
+            </div>
+            <div class="hrstyle">
+                <hr style="color:blanchedalmond">
+            </div>
+            <div class="booktitle">
+                <h1>INTRODUCTION<br>TO ROBOTICS</h1></div>
+            <div class="subtitle">
+                 LIMITED EDITION
+            </div>
+            <div class="subtitle">
+                 
+            </div>
+
+            <div class="mypic">
+                <img src="arul.jpg" width="110" height="150" >
+            </div>
+            <div class="id">
+                <hr style="color:rgb(143, 177, 109)">
+            </div>
+            <div class="author">
+               <br><b>ARULARASI U<b>
+               <br>212223100002</b></p>
+            </div>
+            <div class="pub">
+                IDK PUBLICATIONS
+            </div>
+            <div class="ed">
+                    <b>FUTURE</b> 
+            </div>
+            <div class="ed">
+                     <b>TECHNOLOGY</b>
+            </div>
+        </body>
+        
+
 </html>
+     
 ```
 ## OUTPUT:
+![image exp5](https://github.com/user-attachments/assets/38377cc8-888c-46ef-9219-e4ad6c513474)
 
-![Screenshot 2024-09-14 222956](https://github.com/user-attachments/assets/698763f7-a75a-494d-866a-66808b73b88f)
-
-![Screenshot 2024-09-14 223035](https://github.com/user-attachments/assets/248a3d6a-a32f-42ce-944f-60f4eee55a7c)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.

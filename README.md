@@ -157,10 +157,10 @@ Publish the website in the given URL.
         
 
 </html>
-     
 ```
+
 ## OUTPUT:
-![image exp5](https://github.com/user-attachments/assets/38377cc8-888c-46ef-9219-e4ad6c513474)
+![exp 5](https://github.com/user-attachments/assets/d023b17a-2b1c-4269-a372-f05e19bd6255)
 
 
 ## RESULT:
